@@ -1,18 +1,17 @@
-import { } from 'react'
-import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import React from 'react';
+import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Home from './Home'
-import Nav from './Nav'
-import Produtos from './Produtos'
-import Sobre from './Sobre'
-import Footer from './Footer'
+import Home from './Home';
+import Nav from './Nav';
+import Produtos from './Produtos';
+import Sobre from './Sobre';
+import Footer from './Footer';
 
 function App() {
-
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,7 +22,7 @@ function App() {
         <Footer />
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
