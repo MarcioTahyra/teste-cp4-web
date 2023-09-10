@@ -9,9 +9,10 @@ import Sobre from './Sobre';
 import Footer from './Footer';
 
 function App() {
+  
   return (
     <>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
