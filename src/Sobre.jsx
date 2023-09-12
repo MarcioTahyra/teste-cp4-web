@@ -1,5 +1,5 @@
 import React from 'react';
-import imagem5 from './assets/images/pexels-vilvah-store-17656719.jpg';
+import imagem5 from './assets/Images/pexels-vilvah-store-17656719.jpg';
 
 function Sobre() {
     return (
