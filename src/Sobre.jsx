@@ -1,3 +1,5 @@
+// Feito por Jessica E Júlia
+
 import React from 'react';
 import imagem5 from './assets/Images/pexels-cottonbro-studio-4612159.jpg';
 
