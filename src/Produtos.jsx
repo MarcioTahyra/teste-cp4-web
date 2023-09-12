@@ -1,3 +1,5 @@
+// Feito por Jessica E Júlia
+
 import React from 'react';
 import imagem1 from './assets/Images/pexels-denys-mikhalevych-11935611.jpg';
 import imagem2 from './assets/Images/pexels-denys-mikhalevych-11935633.jpg';
