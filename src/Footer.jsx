@@ -1,3 +1,5 @@
+# Feito por Jessica E Júlia
+
 import { } from 'react'
 
 function Footer() {
